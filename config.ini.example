@@ -1,0 +1,13 @@
+[global]
+sender=a@qq.com
+sender_name=发件人名字
+sender_password=发信密码
+smtp_url=smtp.exmail.qq.com
+smtp_ssl_port=465
+
+[mail]
+subject=标题
+mail_msg=
+    <p>Html格式的邮件</p>
+    <p><a href="http://www.baidu.com">测试测试测试</a></p>
+receivers=c@qq.com,d@qq.com
